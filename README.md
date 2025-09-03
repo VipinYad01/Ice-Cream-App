@@ -18,11 +18,10 @@ It allows users to add ice cream items to a cart, swipe to delete items, view th
 ---
 
 ## Screenshots 📸
+<img width="250" src="https://github.com/user-attachments/assets/f1978f04-91f3-4584-982d-8cb80c635d4e" />
 
-*(Attach screenshots here to showcase the app)*  
-- Home Screen  
-- Cart Screen  
-- Map Screen  
+
+
 
 ---
 
