@@ -22,7 +22,6 @@ It allows users to add ice cream items to a cart, swipe to delete items, view th
 <img width="250" src="https://github.com/user-attachments/assets/940ac6ab-7627-4999-934c-f1e1c186a9b2" />
 <img width="250" src="https://github.com/user-attachments/assets/3f068ace-bda5-47ca-9494-92690427abc3" />
 <img width="250" src="https://github.com/user-attachments/assets/c09b8bf2-4054-443c-bb3a-f794608a2532" />
-<img width="250" src="https://github.com/user-attachments/assets/a49d6759-a6dd-4d41-873d-c37f9fee0f40" />
 <img width="250" src="https://github.com/user-attachments/assets/a4f19299-9cc9-4c7a-be1f-1727198fe98a" />
 <img width="250" src="https://github.com/user-attachments/assets/54d2de1e-22fd-46bb-ae8c-b69eb1aeb6e4" />
 <img width="250" src="https://github.com/user-attachments/assets/f0eda274-4831-4cee-b60f-09a43a3d5ffd" />
