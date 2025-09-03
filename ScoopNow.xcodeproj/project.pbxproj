@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FCAC14092DA3028C00F12BAC /* Ice Cream App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Cream App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCAC14162DA3028E00F12BAC /* Ice Cream AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ice Cream AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCAC14202DA3028E00F12BAC /* Ice Cream AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ice Cream AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAC14092DA3028C00F12BAC /* ScoopNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoopNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAC14162DA3028E00F12BAC /* ScoopNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAC14202DA3028E00F12BAC /* ScoopNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FCAC140B2DA3028C00F12BAC /* Ice Cream App */ = {
+		FCAC140B2DA3028C00F12BAC /* ScoopNow */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ice Cream App";
+			path = ScoopNow;
 			sourceTree = "<group>";
 		};
-		FCAC14192DA3028E00F12BAC /* Ice Cream AppTests */ = {
+		FCAC14192DA3028E00F12BAC /* ScoopNowTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ice Cream AppTests";
+			path = ScoopNowTests;
 			sourceTree = "<group>";
 		};
-		FCAC14232DA3028E00F12BAC /* Ice Cream AppUITests */ = {
+		FCAC14232DA3028E00F12BAC /* ScoopNowUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ice Cream AppUITests";
+			path = ScoopNowUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		FCAC14002DA3028C00F12BAC = {
 			isa = PBXGroup;
 			children = (
-				FCAC140B2DA3028C00F12BAC /* Ice Cream App */,
-				FCAC14192DA3028E00F12BAC /* Ice Cream AppTests */,
-				FCAC14232DA3028E00F12BAC /* Ice Cream AppUITests */,
+				FCAC140B2DA3028C00F12BAC /* ScoopNow */,
+				FCAC14192DA3028E00F12BAC /* ScoopNowTests */,
+				FCAC14232DA3028E00F12BAC /* ScoopNowUITests */,
 				FCAC140A2DA3028C00F12BAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		FCAC140A2DA3028C00F12BAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCAC14092DA3028C00F12BAC /* Ice Cream App.app */,
-				FCAC14162DA3028E00F12BAC /* Ice Cream AppTests.xctest */,
-				FCAC14202DA3028E00F12BAC /* Ice Cream AppUITests.xctest */,
+				FCAC14092DA3028C00F12BAC /* ScoopNow.app */,
+				FCAC14162DA3028E00F12BAC /* ScoopNowTests.xctest */,
+				FCAC14202DA3028E00F12BAC /* ScoopNowUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCAC14082DA3028C00F12BAC /* Ice Cream App */ = {
+		FCAC14082DA3028C00F12BAC /* ScoopNow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCAC142A2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "Ice Cream App" */;
+			buildConfigurationList = FCAC142A2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "ScoopNow" */;
 			buildPhases = (
 				FCAC14052DA3028C00F12BAC /* Sources */,
 				FCAC14062DA3028C00F12BAC /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FCAC140B2DA3028C00F12BAC /* Ice Cream App */,
+				FCAC140B2DA3028C00F12BAC /* ScoopNow */,
 			);
-			name = "Ice Cream App";
+			name = ScoopNow;
 			packageProductDependencies = (
 			);
 			productName = "Ice Cream App";
-			productReference = FCAC14092DA3028C00F12BAC /* Ice Cream App.app */;
+			productReference = FCAC14092DA3028C00F12BAC /* ScoopNow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FCAC14152DA3028E00F12BAC /* Ice Cream AppTests */ = {
+		FCAC14152DA3028E00F12BAC /* ScoopNowTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCAC142D2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "Ice Cream AppTests" */;
+			buildConfigurationList = FCAC142D2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "ScoopNowTests" */;
 			buildPhases = (
 				FCAC14122DA3028E00F12BAC /* Sources */,
 				FCAC14132DA3028E00F12BAC /* Frameworks */,
@@ -131,18 +131,18 @@
 				FCAC14182DA3028E00F12BAC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FCAC14192DA3028E00F12BAC /* Ice Cream AppTests */,
+				FCAC14192DA3028E00F12BAC /* ScoopNowTests */,
 			);
-			name = "Ice Cream AppTests";
+			name = ScoopNowTests;
 			packageProductDependencies = (
 			);
 			productName = "Ice Cream AppTests";
-			productReference = FCAC14162DA3028E00F12BAC /* Ice Cream AppTests.xctest */;
+			productReference = FCAC14162DA3028E00F12BAC /* ScoopNowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FCAC141F2DA3028E00F12BAC /* Ice Cream AppUITests */ = {
+		FCAC141F2DA3028E00F12BAC /* ScoopNowUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCAC14302DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "Ice Cream AppUITests" */;
+			buildConfigurationList = FCAC14302DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "ScoopNowUITests" */;
 			buildPhases = (
 				FCAC141C2DA3028E00F12BAC /* Sources */,
 				FCAC141D2DA3028E00F12BAC /* Frameworks */,
@@ -154,13 +154,13 @@
 				FCAC14222DA3028E00F12BAC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FCAC14232DA3028E00F12BAC /* Ice Cream AppUITests */,
+				FCAC14232DA3028E00F12BAC /* ScoopNowUITests */,
 			);
-			name = "Ice Cream AppUITests";
+			name = ScoopNowUITests;
 			packageProductDependencies = (
 			);
 			productName = "Ice Cream AppUITests";
-			productReference = FCAC14202DA3028E00F12BAC /* Ice Cream AppUITests.xctest */;
+			productReference = FCAC14202DA3028E00F12BAC /* ScoopNowUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FCAC14042DA3028C00F12BAC /* Build configuration list for PBXProject "Ice Cream App" */;
+			buildConfigurationList = FCAC14042DA3028C00F12BAC /* Build configuration list for PBXProject "ScoopNow" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCAC14082DA3028C00F12BAC /* Ice Cream App */,
-				FCAC14152DA3028E00F12BAC /* Ice Cream AppTests */,
-				FCAC141F2DA3028E00F12BAC /* Ice Cream AppUITests */,
+				FCAC14082DA3028C00F12BAC /* ScoopNow */,
+				FCAC14152DA3028E00F12BAC /* ScoopNowTests */,
+				FCAC141F2DA3028E00F12BAC /* ScoopNowUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		FCAC14182DA3028E00F12BAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FCAC14082DA3028C00F12BAC /* Ice Cream App */;
+			target = FCAC14082DA3028C00F12BAC /* ScoopNow */;
 			targetProxy = FCAC14172DA3028E00F12BAC /* PBXContainerItemProxy */;
 		};
 		FCAC14222DA3028E00F12BAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FCAC14082DA3028C00F12BAC /* Ice Cream App */;
+			target = FCAC14082DA3028C00F12BAC /* ScoopNow */;
 			targetProxy = FCAC14212DA3028E00F12BAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,6 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScoopNow;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,6 +425,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScoopNow;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,7 +458,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ice Cream App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ice Cream App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoopNow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoopNow";
 			};
 			name = Debug;
 		};
@@ -474,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ice Cream App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ice Cream App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoopNow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoopNow";
 			};
 			name = Release;
 		};
@@ -513,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCAC14042DA3028C00F12BAC /* Build configuration list for PBXProject "Ice Cream App" */ = {
+		FCAC14042DA3028C00F12BAC /* Build configuration list for PBXProject "ScoopNow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCAC14282DA3028E00F12BAC /* Debug */,
@@ -522,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCAC142A2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "Ice Cream App" */ = {
+		FCAC142A2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "ScoopNow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCAC142B2DA3028E00F12BAC /* Debug */,
@@ -531,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCAC142D2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "Ice Cream AppTests" */ = {
+		FCAC142D2DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "ScoopNowTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCAC142E2DA3028E00F12BAC /* Debug */,
@@ -540,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCAC14302DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "Ice Cream AppUITests" */ = {
+		FCAC14302DA3028E00F12BAC /* Build configuration list for PBXNativeTarget "ScoopNowUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCAC14312DA3028E00F12BAC /* Debug */,

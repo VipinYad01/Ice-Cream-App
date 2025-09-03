@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Ice_Cream_AppUITestsLaunchTests: XCTestCase {
+final class ScoopNowUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

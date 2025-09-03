@@ -180,7 +180,7 @@ struct settings: View {
                     .frame(width: 50, height: 50)
             }
             Spacer()
-            Link(destination: URL(string: "https://www.linkedin.com/in/vipin--49b20927b/")!) {
+            Link(destination: URL(string: "https://www.linkedin.com/in/vipin-49b20927b/")!) {
                 Image("linked")
                     .resizable()
                     .frame(width: 50, height: 50)

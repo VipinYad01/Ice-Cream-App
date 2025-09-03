@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Ice_Cream_AppApp: App {
+struct ScoopNow: App {
     var body: some Scene {
         WindowGroup {
             ContentView() 

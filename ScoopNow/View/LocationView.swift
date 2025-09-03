@@ -20,15 +20,7 @@ struct carLocation : Identifiable {
 
 
 
-
-
-
 let locationView = [carLocation(latitude: 43.4632952, longitude: -80.5257256)]
-
-
-
-
-
 
 
 
@@ -46,24 +38,26 @@ struct LocationView: View {
     
     var body: some View {
         ZStack {
-            Map(position: $cameraPosition) {  // ✅ Correct syntax
-                Annotation("Cream Bell", coordinate: CLLocationCoordinate2D(latitude: 43.4632952, longitude:-80.5257256)) {
-                        Link(destination: URL(string: "https://www.google.com/maps/place/Four+All+Ice+Cream/@43.4632952,-80.5257256,634m/data=!3m2!1e3!5s0x882bf4129413eab9:0x880decc43979ca47!4m14!1m7!3m6!1s0x882bf53e13cd0147:0xd6f37cec8f4eb068!2sFour+All+Ice+Cream!8m2!3d43.4632952!4d-80.5231507!16s%2Fg%2F11j4y1c_xj!3m5!1s0x882bf53e13cd0147:0xd6f37cec8f4eb068!8m2!3d43.4632952!4d-80.5231507!16s%2Fg%2F11j4y1c_xj?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D")!) {
-                            myShop()
-                    }
+            VStack(spacing: 0){
+                Map(position: $cameraPosition) {  // ✅ Correct syntax
+                    Annotation("Cream Bell", coordinate: CLLocationCoordinate2D(latitude: 43.4632952, longitude:-80.5257256)) {
+                            Link(destination: URL(string: "https://www.google.com/maps/place/Four+All+Ice+Cream/@43.4632952,-80.5257256,634m/data=!3m2!1e3!5s0x882bf4129413eab9:0x880decc43979ca47!4m14!1m7!3m6!1s0x882bf53e13cd0147:0xd6f37cec8f4eb068!2sFour+All+Ice+Cream!8m2!3d43.4632952!4d-80.5231507!16s%2Fg%2F11j4y1c_xj!3m5!1s0x882bf53e13cd0147:0xd6f37cec8f4eb068!8m2!3d43.4632952!4d-80.5231507!16s%2Fg%2F11j4y1c_xj?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D")!) {
+                                myShop()
+                        }
 
+                       }
                    }
-               }
-               .edgesIgnoringSafeArea(.all)
-            
-            
-            LinearGradient(gradient: Gradient(colors: [Color("DarkGray") , .clear , .clear ]), startPoint: .top, endPoint: .bottom )
+                   .edgesIgnoringSafeArea(.all)
+                
+                CarLocationPanel()
+            }
+           
+            LinearGradient(gradient: Gradient(colors: [Color("GrayOwn") , .clear , .clear ]), startPoint: .top, endPoint: .bottom )
                 .edgesIgnoringSafeArea(.all)
                 .allowsHitTesting(false)
-            
-            CarLocationPanel()
+           
         }
-        .background(Color("DarkGray"))
+        .background(Color("GrayOwn"))
         .foregroundColor(.white)
         .navigationBarHidden(true)
 
@@ -77,10 +71,10 @@ struct LocationView: View {
 
 }
 
+
 struct CarLocationPanel: View {
     var body: some View {
         VStack{
-            Spacer()
             
             VStack(alignment:.leading , spacing: 10){
                 Rectangle()
@@ -134,9 +128,7 @@ struct CarLocationPanel: View {
             .frame(maxWidth: .infinity , alignment: .leading)
             .background(Color.white)
             .foregroundColor(.black)
-            
-            Spacer()
-                .frame(height: 80)
+
         }
         .edgesIgnoringSafeArea(.all)
     }
